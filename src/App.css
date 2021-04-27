@@ -20,6 +20,7 @@ body{
   display: flex;
   flex-direction: row;
   gap:1rem;
+  
 
 }
 .query-btn{
@@ -46,5 +47,6 @@ body{
   gap: 2rem;
   height: 100vh;
   border: 2pc solid black;
+  
 
 }

@@ -9,8 +9,8 @@ function App() {
     let color = "#" + Math.floor(Math.random() * 16777215).toString(16);
     console.log(color);
     setColor(color);
-    //document.getElementById('container').style.background=randomColor;
-   // document.getElementById('container').style.opacity=.1;
+   // document.getElementById('container').style.background=randomColor;
+  // document.getElementById('container').style.opacity=.1;
   }
   let shades = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7];
 
@@ -18,7 +18,7 @@ function App() {
 
     <div className='container' id="container"
     style={{
-      backgroundColor: {randomColor},
+      backgroundColor: randomColor +'1A',
     }}   >
 
      
